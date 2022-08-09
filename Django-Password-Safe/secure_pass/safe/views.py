@@ -12,12 +12,14 @@ def index(request):
 
    
     
-    all = StorePass.objects.all()
+    al = StorePass.objects.all()
+
 
 
   
     context = {
-        'all': all,
+        'all': al
+        ,
 
     }
 
