@@ -9,17 +9,12 @@ import rsa
 
 
 def index(request):
-
-   
-    
+ 
     al = StorePass.objects.all()
+    h= 'hello dear git how are you?'
 
-
-
-  
     context = {
-        'all': al
-        ,
+        'all': al,
 
     }
 
